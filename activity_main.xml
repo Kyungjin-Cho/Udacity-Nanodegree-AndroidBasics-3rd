@@ -1,0 +1,136 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/first_question" />
+
+        <TextView
+            style="@style/FirstSentenceStyle"
+            android:text="@string/first_sentence"/>
+
+        <EditText
+            android:id="@+id/textAnswer"
+            style="@style/AnswerTextStyle"
+            android:hint="@string/answer" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/second_question"/>
+
+        <TextView
+            style="@style/SecondSentenceStyle"
+            android:text="@string/second_sentence"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/profesora" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/maestro" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/peluquero" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            style="@style/VerticalButtonStyle"
+            android:text="@string/cantante" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/third_question" />
+
+        <TextView
+            style="@style/ThirdSentenceStyle"
+            android:text="@string/third_sentence"/>
+
+        <RadioGroup
+            android:id="@+id/thirdQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question3"
+                style="@style/VerticalButtonStyle"
+                android:text="@string/periodista" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/ama_de_casa" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/ingeniera" />
+
+            <RadioButton
+                style="@style/VerticalButtonStyle"
+                android:text="@string/traductora" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/fourth_question" />
+
+        <TextView
+            style="@style/FourthSentenceStyle"
+            android:text="@string/fourth_sentence"/>
+
+        <RadioGroup
+            android:id="@+id/fourthQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp">
+
+            <RadioButton
+                style="@style/HorizontalButtonStyle"
+                android:text="52" />
+
+            <RadioButton
+                style="@style/HorizontalButtonStyle"
+                android:text="62" />
+
+            <RadioButton
+                android:id="@+id/question4"
+                style="@style/HorizontalButtonStyle"
+                android:text="72"/>
+
+            <RadioButton
+                style="@style/HorizontalButtonStyle"
+                android:text="82"/>
+        </RadioGroup>
+
+        <Button
+            android:onClick="submitButton"
+            style="@style/SubmitButtonStyle"
+            android:text="@string/submit" />
+
+        <Button
+            android:id="@+id/exit"
+            style="@style/ExitButtonStyle"
+            android:text="@string/exit" />
+
+
+    </LinearLayout>
+</ScrollView>
