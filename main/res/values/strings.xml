@@ -1,0 +1,69 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Spanish Quiz</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="answer">Answer</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="first_question">1. Read the sentence and fill in the blank.</string>
+
+    <!-- First sentence [CHAR LIMIT=20] -->
+    <string name="first_sentence">lunes → martes → miércoles →\n_____ → sábado → domingo</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="second_question">2. Choose answers for the fill in the blank.</string>
+
+    <!-- Second sentence [CHAR LIMIT=20] -->
+    <string name="second_sentence">Es _____ , trabaja en una universidad.</string>
+
+    <!-- Profesora in Second question [CHAR LIMIT=20] -->
+    <string name="profesora">profesora</string>
+
+    <!-- Peluquero in Second question [CHAR LIMIT=20] -->
+    <string name="peluquero">peluquero</string>
+
+    <!-- Maestro in Second question [CHAR LIMIT=20] -->
+    <string name="maestro">maestro</string>
+
+    <!-- Cantante in Second question [CHAR LIMIT=20] -->
+    <string name="cantante">cantante</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="third_question">3. Choose the right answer.</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="third_sentence">Soy actor, pero trabajo como _______ .</string>
+
+    <!-- Periodista in Second question [CHAR LIMIT=20] -->
+    <string name="periodista">periodista</string>
+
+    <!-- Ama de casa in Second question [CHAR LIMIT=20] -->
+    <string name="ama_de_casa">ama de casa</string>
+
+    <!-- Ingeniera in Second question [CHAR LIMIT=20] -->
+    <string name="ingeniera">ingeniera</string>
+
+    <!-- Traductora in Second question [CHAR LIMIT=20] -->
+    <string name="traductora">traductora</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="fourth_question">4. Choose the right answer.</string>
+
+    <!-- First question [CHAR LIMIT=20] -->
+    <string name="fourth_sentence">Noventa y dos menos veinte son ____ .</string>
+
+    <!-- Text for the submit button [CHAR LIMIT=20] -->
+    <string name="submit">SUBMIT</string>
+
+    <!-- Text for the reset button [CHAR LIMIT=20] -->
+    <string name="exit">EXIT</string>
+
+    <!-- Right answer in first question [CHAR LIMIT=20] -->
+    <string name="answer_one">viernes</string>
+
+
+
+
+</resources>
+
